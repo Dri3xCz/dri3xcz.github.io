@@ -1,0 +1,36 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #212a31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'jost';
+    color: #d3d9d4;
+}
+
+.heading {
+    text-align: center;
+    font-size: 288px;
+    background: linear-gradient(to right, #d3d9d4 0%, #d3d9d4 30%, #748d92 80%, #d3d9d4 100%);
+    width: fit-content;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 45%;
+    margin: 0;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+a {
+    font-size: 24px;
+    color: #748d92;
+    transition-duration: 300ms;
+}
+
+a:hover {
+    color: #124e66;
+}
